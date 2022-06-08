@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header{
+    background-image: url("banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar-brand,.nav-link{
+    color: black;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-brand span{
+    color:crimson;;
+}
+.icon-menu{
+    /* color: white; */
+    font-size: 2rem;
+}
+
+
+/* ------------------------ */
+
+.section-hero{
+    margin-top: 5rem;
+    
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+
+ .text-1{
+    font-size: 27px;
+}
+ .text-2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+ .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+ .btn-color{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    text-decoration: none;
+ }
+ .btn-color:hover{
+    color: crimson;
+    background: none;
+}
+.typing{
+     color: crimson;
+
+ }
+
+ @media (max-width: 575.98px) { 
+
+  
+    
+ .text-1{
+    font-size: 1.7rem;
+}
+ .text-2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.text-3{
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+  }
